@@ -1,0 +1,50 @@
+.wrapper{
+    height:100%;
+    width:100%;
+    margin:0;
+    display:flex;
+    text-align: center;
+}
+
+.form{
+    margin: auto;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius:5px;
+    padding: 8px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+.authbutton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius:12px;
+    padding: 20px 25px;
+    height: auto;
+    background: linear-gradient(45deg,#d4145a,#fbb03b);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav{
+    text-decoration: none;
+    text-align: center;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    width:150px
+}
+
+.error{
+    color: #d4145a;
+}
