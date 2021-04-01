@@ -39,7 +39,7 @@ The file `index.js` which executes when our client side application is ran
 We have a `components` folder for our different components.
 
 ```
-App
+server
 ├── model
 │   └── blocks.js
 │   └── users.js
