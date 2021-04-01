@@ -18,7 +18,7 @@ function Login() {
 
     const login = async () => {
         try {
-           const res = await Axios.post("http://localhost:3001/login", {
+           const res = await Axios.post("https://cartedo-server.herokuapp.com/login", {
                 name: name,
                 password: password,
             });

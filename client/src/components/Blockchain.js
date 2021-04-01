@@ -25,8 +25,7 @@ function blockchain() {
 
     async function getList(){
         try {
-            const res = await Axios.get(`http://localhost:3001/users/${userID}`);
-            console.log(res);
+            const res = await Axios.get(`https://cartedo-server.herokuapp.com/users/${userID}`);
             setBlockList(res.data.blockList);
             setUserName(res.data.users.name)
         } catch (error) {
@@ -40,14 +39,12 @@ function blockchain() {
     const createBlock = async ()=>{
         setBlockNum(prev => prev + 1)
         try {
-           const response = await Axios.post('http://localhost:3001/blockchain',{
+           const response = await Axios.post('https://cartedo-server.herokuapp.com/blockchain',{
             data: blockdata,
             hash: await hashGen(`${(blockNum * 2).toString()}myApp`),
             user: userID,
             name: `BLOCK #${blockNum}`
         })
-
-            console.log(response);
             
         } catch (error) {
             console.log(error);

@@ -15,7 +15,7 @@ function Signup() {
 
     const register = async ()=>{
         try {
-           const response = await Axios.post('http://localhost:3001/signup',{
+           const response = await Axios.post('https://cartedo-server.herokuapp.com/signup',{
             name: nameReg,
             password: passwordReg
         })
