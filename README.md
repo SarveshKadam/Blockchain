@@ -1,6 +1,13 @@
 # Cartedo_Blockchain
 
 A MERN fullstack application for blockchaining.
+
+You can view the [Live App](https://cartedo.netlify.app/) with either new user or an existing dummy user with below credentials.
+
+`username` : test <br />
+`password` : password
+
+
 ## Features ⭐
 
 
