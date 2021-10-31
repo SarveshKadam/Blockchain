@@ -1,4 +1,4 @@
-# Cartedo_Blockchain
+# Blockchain
 
 A MERN fullstack application for blockchaining.
 
